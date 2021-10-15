@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="destyle.css">
+    <link rel='stylesheet' href='PON_DESIGN-contact.min.css'>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src='PON_DESIGN-contact.js' defer></script>
+</head>
+<body>
+    <header>
+        <div class="header_top" id="header_top" >
+            <div class="header_top_logo">
+                <a href="PON_DESIGN-home.html">
+                    <img src="img/logo.svg" class="logo-img" id="hamberger-opacity">
+                </a>
+            </div>
+            <div class="header_top_nav">
+                <ul>
+                    <li><a href="PON_DESIGN-news.html">NEWS</a></li>
+                    <li><a href="PON_DESIGN-service.html">SERVICE</a></li>
+                    <li><a href="PON_DESIGN-works.html">WORKS</a></li>
+                    <li><a href="PON_DESIGN-company.html">COMPANY</a></li>
+                    <li><a href="PON_DESIGN-recruit.html">RECRUIT</a></li>
+                    <li><a href="PON_DESIGN-contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="hamberger" id="hamberger-click">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="header_text" id="target">
+            <div class="header_title">
+                <h1>CONTACT</h1>
+            </div>
+            <div class="header_subtitle">
+                <p>お問い合わせ</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-top">
+            <div class="main-top-inner">
+                <ul>
+                    <li><a href="PON_DESIGN-home.html"><span>HOME</span></a></li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-wrapper" id="main-wrapper">
+            <div class="main-container">
+                <div class="main-head">
+                    <p>Webサイトの制作のご依頼やお見積りなど、<br class="main-head-sp-only">お気軽にご相談ください。</p>
+                </div>
+                <form action="" class="form">
+                    <div class="form-item">
+                        <div class="form-title">
+                            お問い合わせ種別<span>*必須</span>
+                        </div>
+                        <span class="form-radio">
+                            <input type="radio" id="type01">
+                            <label for="type01">お仕事のご依頼・ご相談</label>
+                        </span>
+                        <span class="form-radio">
+                            <input type="radio" id="type02">
+                            <label for="type02">お見積もりのご依頼</label>
+                        </span>
+                        <span class="form-radio">
+                            <input type="radio" id="type03">
+                            <label for="type03">採用について</label>
+                        </span>
+                        <span class="form-radio">
+                            <input type="radio" id="type04">
+                            <label for="type04">その他</label>
+                        </span>
+                    </div>
+                    <div class="form-item">
+                        <label for="name" class="form-title">
+                            お名前<span>*必須</span>
+                        </label>
+                        <input type="text" id="name" class="form-input">
+                    </div>
+                    <div class="form-item">
+                        <label for="company" class="form-title">
+                            会社名<span>*必須</span>
+                        </label>
+                        <input type="text" id="company" class="form-input">
+                    </div>
+                    <div class="form-item">
+                        <label for="email" class="form-title">
+                            メールアドレス<span>*必須</span>
+                        </label>
+                        <input type="text" id="email" class="form-input">
+                    </div>
+                    <div class="form-item">
+                        <label for="tel" class="form-title">
+                            電話番号<span class="form-note" style="color: #333333;">（半角数字ハイフン）</span>
+                        </label>
+                        <input type="text" id="tel" class="form-input">
+                    </div>
+                    <div class="form-item">
+                        <label for="comment" class="form-title">
+                            お問い合わせ内容
+                        </label>
+                        <textarea id="comment" name="comment" placeholder="お問い合わせ内容を具体的にご記入くださいませ。" class="form-textarea"></textarea>
+                    </div>
+                    <div class="form-item">
+                        <label for="job" class="form-title">
+                            PON DESIGNをどちらでお知りになりましたか？<span>*必須</span>
+                        </label>
+                        <select name="job" id="job" class="form-select">
+                            <option value hidden>選択してください</option>
+                            <option value="Google/Yahoo検索">Google/Yahoo検索</option>
+                            <option value="SNS">SNS</option>
+                            <option value="ブログ">ブログ</option>
+                            <option value="友人や知人">友人や知人</option>
+                            <option value="その他">その他</option>
+                        </select>
+                    </div>
+                    <div class="form-btn">
+                        <button type="submit" class="btn">送信する<i class="fa fa-caret-right arrow-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer_nav_list">
+            <li><a href="">HOME</a></li>
+            <li><a href="">NEWS</a></li>
+            <li><a href="">SERVICE</a></li>
+            <li><a href="">WORKS</a></li>
+            <li><a href="">COMPANY</a></li>
+            <li><a href="">RECRUIT</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        <div class="footer_copyright">
+            <a href="">＠PON DESIGN</a>
+        </div>
+    </footer>
+    <div class="page_top_link" id="page_top_link">
+        <a href=""><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <div class="hamberger-inner" id="hamberger-inner">
+        <ul>
+            <li><a href="PON_DESIGN-news.html">NEWS</a></li>
+            <li><a href="PON_DESIGN-service.html">SERVICE</a></li>
+            <li><a href="PON_DESIGN-works.html">WORKS</a></li>
+            <li><a href="PON_DESIGN-company.html">COMPANY</a></li>
+            <li><a href="PON_DESIGN-recruit.html">RECRUIT</a></li>
+            <li><a href="PON_DESIGN-contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</body>
